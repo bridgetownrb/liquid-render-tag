@@ -1,7 +1,5 @@
 require "liquid"
 
-p "Liquid!"
-
 unless defined?(Liquid::Render)
   tags = Liquid::Template.tags.instance_variable_get(:@cache)
 
